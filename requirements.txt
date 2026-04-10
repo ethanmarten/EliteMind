@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+langchain-groq
+sentence-transformers
+chromadb
+pypdf
+docx2txt
+youtube-transcript-api
+unstructured
