@@ -4,6 +4,7 @@ langchain-core
 langchain-community
 langchain-text-splitters
 langchain-groq
+langchain-classic        # أضف هذا السطر
 sentence-transformers
 chromadb
 pypdf
