@@ -12,3 +12,4 @@ docx2txt
 youtube-transcript-api
 unstructured
 protobuf==3.20.3
+fpdf
