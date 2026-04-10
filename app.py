@@ -171,7 +171,7 @@ if analyze_btn:
                 vectorstore = Chroma.from_documents(documents=splits, embedding=embeddings)
                 
                 # إعداد Groq
-                llm = ChatGroq(temperature=0, model_name="llama3-70b-8192", groq_api_key=groq_key)
+                llm = ChatGroq(temperature=0, model_name="llama-3.3-70b-versatile", groq_api_key=groq_key)
                 qa_chain = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=vectorstore.as_retriever())
                 
                 answer_text = qa_chain.run(question)
